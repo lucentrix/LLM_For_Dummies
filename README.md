@@ -27,7 +27,7 @@ Welcome to **LLM for Dummies** – a beginner-friendly guide and code collection
 LLM_For_Dummies/
 ├── 01-lmstudio/
 ├──── requirements.txt
-│   └── call_mistral_function.py
+│   └── mistral_function_calc.py
 └── README.md
 ```
 
@@ -64,7 +64,7 @@ pip install -r requirements.txt
 
 ```bash
 cd 01-ollama-basic-chat
-python call_mistral_function.py
+python mistral_function_calc.py
 ```
 
 ---
