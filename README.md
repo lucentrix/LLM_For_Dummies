@@ -5,9 +5,20 @@ Welcome to **LLM for Dummies** – a beginner-friendly guide and code collection
 - [**LM Studio**](https://lmstudio.ai) – A GUI-based LLM interface
 - [**Ollama**](https://ollama.com) – Easy CLI/API tool for running models locally
 - [**LlamaIndex**](https://llamaindex.ai) – Connecting LLMs to custom/private data
+- [**Haystack**](https://haystack.deepset.ai/) - Retrieval-augmented generation (RAG) and agentic pipeline
 - [**Quantized models**] – Models optimized to run on mid-tier GPUs
 
 > **Audience**: Developers or tinkerers with basic programming and LLM knowledge. No deep ML or GPU programming required.
+
+### OpenAI API Support
+
+| Framework      | Supports OpenAI API  | Can use with Ollama / LM Studio? | Notes                      |
+| -------------- | -------------------- | -------------------------------- | -------------------------- |
+| **LangChain**  | ✅ Yes                | ✅ Yes (set `openai_api_base`)    | Most flexible              |
+| **LlamaIndex** | ✅ Yes                | ✅ Yes                            | Easy to configure          |
+| **Haystack**   | ✅ Yes                | ✅ Partial                        | May need adapter for local |
+| **LM Studio**  | ⚠️ Partial (API host) | ✅ Yes                            | Needs local server enabled |
+| **Ollama**     | ⚠️ Not a framework    | ✅ Yes (runs OpenAI API)          | Use with `ollama serve`    |
 
 ---
 
@@ -26,8 +37,15 @@ Welcome to **LLM for Dummies** – a beginner-friendly guide and code collection
 ```
 LLM_For_Dummies/
 ├── 01-lmstudio/
-├──── requirements.txt
 │   └── mistral_function_calc.py
+├── 02-ollama/
+│   │── embeddings.py
+│   └── README.md
+├── 03-llama-index/
+├──── llamaindex-ollama/
+│     │── llamaindex-ollama-embeddings.py
+│     └── README.md
+├──── requirements.txt
 └── README.md
 ```
 
