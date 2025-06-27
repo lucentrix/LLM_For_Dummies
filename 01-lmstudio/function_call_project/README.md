@@ -35,17 +35,17 @@ https://anaconda.org/conda-forge/mamba
 
 in LM Studio, load and select mistralai/mistral-7b-instruct-v0.3 model and open ports:
 
-![LMStudio_1](images/LMStudio_1.png)
+![LMStudio_1](resources/images/LMStudio_1.png)
 
 and then open ports:
 
-![LMStudio_2](images/LMStudio_2.png)
+![LMStudio_2](resources/images/LMStudio_2.png)
 
 Download mistral context config from https://github.com/lmstudio-ai/configs.git
 
 and select it in LM Studio for mistral model:
 
-![LMStudio_3](images/LMStudio_3.png)
+![LMStudio_3](resources/images/LMStudio_3.png)
 
 
 
@@ -132,6 +132,6 @@ and LLM model returns answer with function result embedded:
 `The result is 32. Is there anything else you need help with?`
 
 Terminal with debug messages:
-![Terminal_1](images/Terminal_1.png)
+![Terminal_1](resources/images/Terminal_1.png)
 
  

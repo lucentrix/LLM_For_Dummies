@@ -37,7 +37,7 @@ Welcome to **LLM for Dummies** – a beginner-friendly guide and code collection
 ```
 LLM_For_Dummies/
 ├── 01-lmstudio/
-│   └── mistral_function_calc.py
+│    └── function_call_project
 ├── 02-ollama/
 │   │── embeddings.py
 │   └── README.md
