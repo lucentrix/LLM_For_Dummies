@@ -39,13 +39,11 @@ LLM_For_Dummies/
 ├── 01-lmstudio/
 │    └── function_call_project
 ├── 02-ollama/
-│   │── embeddings.py
-│   └── README.md
+│    └── ollama_embeddings_project
 ├── 03-llama-index/
 ├──── llamaindex-ollama/
-│     │── llamaindex-ollama-embeddings.py
-│     └── README.md
-├──── requirements.txt
+│     └── llamaindex_ollama_embeddings_project
+├──── requirements.txt 
 └── README.md
 ```
 

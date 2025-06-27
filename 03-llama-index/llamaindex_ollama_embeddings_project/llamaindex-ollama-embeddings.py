@@ -10,7 +10,8 @@ llm = Ollama(
 )
 
 embed_model = OllamaEmbedding(
-    model_name="mxbai-embed-large",
+   # model_name="mxbai-embed-large",
+    model_name="nomic-embed-text",
     base_url="http://localhost:11434"  # Optional: specify if different from default
 )
 
@@ -21,7 +22,7 @@ Settings.embed_model = embed_model
 current_dir = os.getcwd()
 print("Current folder: ", current_dir)
 
-doc_folder_path = os.path.join(current_dir, "../resources/documents")
+doc_folder_path = os.path.join(current_dir, "resources/documents")
 print("Processing documents from folder: ", doc_folder_path)
 
 documents = SimpleDirectoryReader(doc_folder_path).load_data()

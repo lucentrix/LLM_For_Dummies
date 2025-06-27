@@ -16,3 +16,20 @@
 ```
 pip install llama-index[llms]  # for LLM wrappers
 ```
+
+
+
+#### Execution
+
+run llamaindex-ollama-embeddings.py, it will print query and search result in debug output:
+
+`Search query:  What is this document about?`
+
+Output:
+
+`Search response:  This document is about Google introducing new state-of-the-art open models called Gemma.`
+
+To see stored vectors, print vector store.
+
+API documentation: [vector stores](https://docs.llamaindex.ai/community/integrations/vector_stores.md), [vector store index](https://docs.llamaindex.ai/en/stable/module_guides/indexing/vector_store_index/), [retrievers](https://docs.llamaindex.ai/en/stable/examples/retrievers/composable_retrievers/)
+
