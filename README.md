@@ -78,8 +78,12 @@ pip install -r requirements.txt
 
 ### 3. Try a Demo
 
+Start LM Studio and follow instructions from 01-lmstudio/function_call_project/README.md
+
+This project demonstrates how custom function works with mistral model.
+
 ```bash
-cd 01-ollama-basic-chat
+cd 01-lmstudio/function_call_project
 python mistral_function_calc.py
 ```
 
